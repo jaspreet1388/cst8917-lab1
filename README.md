@@ -48,9 +48,12 @@ Update local.settings.json with your SQL connection string:
 Running Locally
 Navigate to the project root through VS code:
 Install dependencies:
+```
 pip install -r requirements.txt
 Start the function app locally:
 func start
+
+```
 Testing
 Trigger the Storage Queue function via an HTTP request
 Verify that a message is added to the storage queue.
