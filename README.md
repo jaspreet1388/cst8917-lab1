@@ -42,6 +42,7 @@ CREATE TABLE dbo.ToDo (
  [completed] BIT NOT NULL
 );
 ```
+```
 Update local.settings.json with your SQL connection string:
 
 {
@@ -49,7 +50,8 @@ Update local.settings.json with your SQL connection string:
     "SqlConnectionString": "<Your_SQL_Connection_String>"
   }
 }
-Running Locally
+```
+## Running Locally
 Navigate to the project root through VS code:
 Install dependencies:
 ```
