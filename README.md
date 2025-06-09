@@ -29,14 +29,15 @@ Azure SQL Function
 Create an Azure SQL Database and SQL Server.
 
 Create a table using the following schema:
-
+``` sql
 CREATE TABLE dbo.ToDo (
  [Id] UNIQUEIDENTIFIER PRIMARY KEY,
  [order] INT NULL,
- [title] NVARCHAR(200) NOT NULL,
- [url] NVARCHAR(200) NOT NULL,
+ [title] NVARCHAR(250) NOT NULL,
+ [url] NVARCHAR(250) NOT NULL,
  [completed] BIT NOT NULL
 );
+```
 Update local.settings.json with your SQL connection string:
 
 {
