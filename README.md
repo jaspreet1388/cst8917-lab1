@@ -9,12 +9,16 @@ A function that inserts records into an Azure SQL Database.
 Both functions were created and tested locally before being deployed to Azure.
 
 ## Prerequisites
+
+```
 Python 3.10+
 Azure Functions Core Tools
 Visual Studio Code with Azure Functions and Python extensions
 Azure CLI
 An active Azure subscription
-Setup Instructions
+
+```
+## Setup Instructions
 Storage Queue Function
 Create a Storage Account on Azure.
 Set up a Queue named outqueue.
